@@ -58,7 +58,7 @@ estdescript = function(dataset) {
 # MINTIC 2022 - Análisis
 
 ## Importar DataSet
-mydata <- read.csv2(file = "../Misi_n_TIC_2020_100_mil_programadores_CSV.csv", sep = ",", encoding = "UTF-8")
+mydata <- read.csv2(file = "Datasets/Misi_n_TIC_2020_100_mil_programadores_CSV.csv", sep = ",", encoding = "UTF-8")
 #View(mydata)
 names(mydata)
 
